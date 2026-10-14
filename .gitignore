@@ -18,3 +18,8 @@ ipch/
 *.exp
 *.ilk
 *.log
+
+# Local validation and generated files
+build/
+data/
+*.user-results.txt

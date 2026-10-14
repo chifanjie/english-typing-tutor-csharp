@@ -13,6 +13,7 @@ namespace san_ji_xiang_mu
         [STAThread]
         static void Main()
         {
+            System.IO.Directory.SetCurrentDirectory(Application.StartupPath);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
